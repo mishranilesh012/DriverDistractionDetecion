@@ -10,10 +10,23 @@
 </html> -->
 
 <div class="container">
-  <h1>Video Streaming Demonstration</h1>
-<img id="bg" src="http://192.168.137.187:3000/showVideo"><br>
-<button type="button" class="btn btn-primary btn-lg" (click)="getData($event)">Get Data</button>
+<h2 class="head">DRIVER DISTRACTION DETECTION USING CAMERA VISION SYSTEM</h2><br><br>
+<h3 class="subhead">VIDEO STREAMING</h3>
+<div class="row">
+  <div class="col 2"></div>
+  <div class="col 8">
+    <div class="card">
+      <div class="card-body">
+        <img id="bg" src="http://192.168.137.187:3000/showVideo">
+      </div>
+    </div>
+  </div>
+  <div class="col 2"></div>
+</div>
+
 <br>
+<button type="button" class="btn btn-primary btn-lg" (click)="getData($event)">Get Data</button>
+<br><br>
 <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -33,3 +46,4 @@
    </tbody>
 </table>
 </div>
+<br><br><br>
